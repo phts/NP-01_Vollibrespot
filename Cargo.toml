@@ -1,6 +1,6 @@
 [package]
 name = "vollibrespot"
-version = "0.2.5"
+version = "0.2.5-phts-np-01.0"
 authors = ["ashthespy <https://github.com/ashthespy/>"]
 build = "build.rs"
 edition = "2018"
@@ -11,7 +11,7 @@ path = "src/main.rs"
 doc = false
 
 [dependencies]
-env_logger =  {version = "0.7", default-features = false, features = ["termcolor","humantime","atty"]} 
+env_logger =  {version = "0.7", default-features = false, features = ["termcolor","humantime","atty"]}
 futures = "0.1"
 getopts = "0.2"
 hyper = "0.12"
