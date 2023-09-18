@@ -26,9 +26,8 @@ hex = "0.4"
 toml = "0.5"
 
 [dependencies.librespot]
-git = "https://github.com/ashthespy/librespot"
-branch="vollibrespot"
-# path = "../librespot"
+git = "https://github.com/phts/NP-01_librespot.git"
+rev = "4d205874f04cf1768bc7c42f3e2f7a3078832011"
 default-features = false
 features = ["alsa-backend"]
 
