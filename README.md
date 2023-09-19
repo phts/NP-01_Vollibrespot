@@ -1,8 +1,8 @@
 # PHTS NP-01: Vollibrespot
 
-Modified [ashthespy/Vollibrespot][ashthespy/Vollibrespot] which are used by [PHTS NP-01].
+Modified fork of [ashthespy/Vollibrespot] which is used by [PHTS NP-01].
 
-Depends on [NP-01_librespot] &mdash; custom and already far outdated fork of [librespot] library.
+Depends on [NP-01_librespot] &mdash; custom and outdated fork of [librespot] library.
 
 Changes:
 
