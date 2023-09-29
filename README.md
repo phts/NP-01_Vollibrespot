@@ -8,6 +8,7 @@ Changes:
 
 - add `user-follow-read` scope to allow getting followed artists
 - add more values (album release date and track number) to metadata
+- fix JSON parsing errors in some cases
 
 [ashthespy/Vollibrespot]: https://github.com/ashthespy/Vollibrespot
 [phts np-01]: https://tsaryk.com/NP-01

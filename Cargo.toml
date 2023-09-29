@@ -1,6 +1,6 @@
 [package]
 name = "vollibrespot"
-version = "0.2.5-phts-np-01.0"
+version = "0.2.5-phts-np-01.1"
 authors = ["ashthespy <https://github.com/ashthespy/>"]
 build = "build.rs"
 edition = "2018"
