@@ -31,7 +31,7 @@ toml = "0.5"
 # path = "./NP-01_librespot"
 # for release:
 git = "https://github.com/phts/NP-01_librespot.git"
-rev = "a33e777ed9cb618a1392ded44b703b60cd5c3b34"
+rev = "9e4507324b9165804eb5afc588ac9e27acdac537"
 default-features = false
 features = ["alsa-backend"]
 

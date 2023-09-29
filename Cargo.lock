@@ -675,8 +675,8 @@ dependencies = [
 
 [[package]]
 name = "librespot"
-version = "0.1.0-phts-np-01.0"
-source = "git+https://github.com/phts/NP-01_librespot.git?rev=4d205874f04cf1768bc7c42f3e2f7a3078832011#4d205874f04cf1768bc7c42f3e2f7a3078832011"
+version = "0.1.0-phts-np-01.2"
+source = "git+https://github.com/phts/NP-01_librespot.git?rev=9e4507324b9165804eb5afc588ac9e27acdac537#9e4507324b9165804eb5afc588ac9e27acdac537"
 dependencies = [
  "librespot-audio",
  "librespot-connect",
@@ -691,7 +691,7 @@ dependencies = [
 [[package]]
 name = "librespot-audio"
 version = "0.1.1"
-source = "git+https://github.com/phts/NP-01_librespot.git?rev=4d205874f04cf1768bc7c42f3e2f7a3078832011#4d205874f04cf1768bc7c42f3e2f7a3078832011"
+source = "git+https://github.com/phts/NP-01_librespot.git?rev=9e4507324b9165804eb5afc588ac9e27acdac537#9e4507324b9165804eb5afc588ac9e27acdac537"
 dependencies = [
  "aes-ctr",
  "bit-set",
@@ -709,7 +709,7 @@ dependencies = [
 [[package]]
 name = "librespot-connect"
 version = "0.1.1"
-source = "git+https://github.com/phts/NP-01_librespot.git?rev=4d205874f04cf1768bc7c42f3e2f7a3078832011#4d205874f04cf1768bc7c42f3e2f7a3078832011"
+source = "git+https://github.com/phts/NP-01_librespot.git?rev=9e4507324b9165804eb5afc588ac9e27acdac537#9e4507324b9165804eb5afc588ac9e27acdac537"
 dependencies = [
  "aes-ctr",
  "base64",
@@ -736,7 +736,7 @@ dependencies = [
 [[package]]
 name = "librespot-core"
 version = "0.1.1"
-source = "git+https://github.com/phts/NP-01_librespot.git?rev=4d205874f04cf1768bc7c42f3e2f7a3078832011#4d205874f04cf1768bc7c42f3e2f7a3078832011"
+source = "git+https://github.com/phts/NP-01_librespot.git?rev=9e4507324b9165804eb5afc588ac9e27acdac537#9e4507324b9165804eb5afc588ac9e27acdac537"
 dependencies = [
  "aes",
  "base64",
@@ -773,7 +773,7 @@ dependencies = [
 [[package]]
 name = "librespot-metadata"
 version = "0.1.1"
-source = "git+https://github.com/phts/NP-01_librespot.git?rev=4d205874f04cf1768bc7c42f3e2f7a3078832011#4d205874f04cf1768bc7c42f3e2f7a3078832011"
+source = "git+https://github.com/phts/NP-01_librespot.git?rev=9e4507324b9165804eb5afc588ac9e27acdac537#9e4507324b9165804eb5afc588ac9e27acdac537"
 dependencies = [
  "byteorder",
  "futures",
@@ -786,7 +786,7 @@ dependencies = [
 [[package]]
 name = "librespot-playback"
 version = "0.1.1"
-source = "git+https://github.com/phts/NP-01_librespot.git?rev=4d205874f04cf1768bc7c42f3e2f7a3078832011#4d205874f04cf1768bc7c42f3e2f7a3078832011"
+source = "git+https://github.com/phts/NP-01_librespot.git?rev=9e4507324b9165804eb5afc588ac9e27acdac537#9e4507324b9165804eb5afc588ac9e27acdac537"
 dependencies = [
  "alsa",
  "byteorder",
@@ -800,7 +800,7 @@ dependencies = [
 [[package]]
 name = "librespot-protocol"
 version = "0.1.1"
-source = "git+https://github.com/phts/NP-01_librespot.git?rev=4d205874f04cf1768bc7c42f3e2f7a3078832011#4d205874f04cf1768bc7c42f3e2f7a3078832011"
+source = "git+https://github.com/phts/NP-01_librespot.git?rev=9e4507324b9165804eb5afc588ac9e27acdac537#9e4507324b9165804eb5afc588ac9e27acdac537"
 dependencies = [
  "protobuf",
  "protobuf-codegen-pure",
