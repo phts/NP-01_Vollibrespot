@@ -1,5 +1,10 @@
 #/usr/bin/env bash
 
+if [[ -z "$SUDOPASS" ]]; then
+  echo "SUDOPASS env variable is required."
+  exit 1
+fi
+
 SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)
 PROJECT_DIR="${SCRIPT_DIR}/.."
 
