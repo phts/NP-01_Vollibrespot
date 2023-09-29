@@ -20,6 +20,7 @@ ssh volumio <<EOF
   echo ${SUDOPASS} | sudo -S killall vollibrespot
   echo ${SUDOPASS} | sudo -S cp /home/volumio/vollibrespot /usr/bin/vollibrespot
   rm -f /home/volumio/vollibrespot
+  /usr/bin/vollibrespot --version
 EOF
 
 for arg in "$@"; do
