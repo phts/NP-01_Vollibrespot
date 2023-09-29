@@ -26,6 +26,10 @@ hex = "0.4"
 toml = "0.5"
 
 [dependencies.librespot]
+# for local development:
+# clone NP-01_librespot into current folder
+# path = "./NP-01_librespot"
+# for release:
 git = "https://github.com/phts/NP-01_librespot.git"
 rev = "a33e777ed9cb618a1392ded44b703b60cd5c3b34"
 default-features = false
