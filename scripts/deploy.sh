@@ -10,7 +10,7 @@ PROJECT_DIR="${SCRIPT_DIR}/.."
 
 echo "Back up..."
 mkdir -p "${PROJECT_DIR}/bak"
-scp volumio:/usr/bin/vollibrespot "${PROJECT_DIR}/bak/vollibrespot-$(date)"
+scp volumio:/usr/bin/vollibrespot "${PROJECT_DIR}/bak/vollibrespot-$(date -Iseconds)"
 
 echo "Uploading..."
 scp "${PROJECT_DIR}/target/armv7-unknown-linux-gnueabihf/release/vollibrespot" volumio:/home/volumio/vollibrespot
